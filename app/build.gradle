@@ -10,7 +10,7 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-//解决annotationProcessor注解类继承不了的问题
+        //解决annotationProcessor注解类继承不了的问题
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8
@@ -38,6 +38,9 @@ android {
                     'src/main/res/base',
                     'src/main/res/main',
                     'src/main/res/home',
+                    'src/main/res/second',
+                    'src/main/res/mine',
+
             ]
             jniLibs.srcDirs = [
                     'libDir',

@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp">
+    android:layout_height="55dp">
 
 <LinearLayout
     android:id="@+id/main"
@@ -17,8 +17,8 @@
 
     <ImageView
         android:src="@drawable/draw_main"
-        android:layout_width="25dp"
-        android:layout_height="25dp"/>
+        android:layout_width="28dp"
+        android:layout_height="28dp"/>
 </LinearLayout>
 
     <LinearLayout
@@ -30,8 +30,8 @@
 
         <ImageView
             android:src="@drawable/draw_second"
-            android:layout_width="25dp"
-            android:layout_height="25dp"/>
+            android:layout_width="28dp"
+            android:layout_height="28dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -43,8 +43,8 @@
 
         <ImageView
             android:src="@drawable/draw_mine"
-            android:layout_width="25dp"
-            android:layout_height="25dp"/>
+            android:layout_width="28dp"
+            android:layout_height="28dp"/>
     </LinearLayout>
 
 </LinearLayout>
